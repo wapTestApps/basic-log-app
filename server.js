@@ -5,6 +5,7 @@ http.createServer(function (request, response) {
   console.log("Error: Message 1");
   console.log("Error: Message 2");
   console.log("Regular message 1");
+  console.log("Message with special chars mes/a:q;");
   console.log("Error: Message 3");
   console.log("㯑䲘䄂㮉: A line we want to capture");
   console.log("Regular message 2");
